@@ -1,4 +1,94 @@
-.App {
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  color: #000000;
+  background: #ffffff;
+  transition: color 0.5s, background-color 0.5s;
+  font-family: 'Poppins', sans-serif;
+  line-height: .5;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.header img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.home {
+  color: #ffffff;
+  width: 100%;
+  text-align: center;
+  padding: 70px 0;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  margin: 2%;
+  color: #ffffff;
+}
+
+.menu {
+  margin: 2%;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  float: right;
+  width: 100%;
+  margin: 0;
+}
+
+.nav a {
+  font-weight: 500;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 5px;
+  padding: 8px 16px;
+  border-radius: 10px;
+}
+
+.nav a:hover {
+  background: #ffffff15;
+  transition-duration: 0.5s;
+}
+
+.home {
+  margin-top: 5%;
+}
+
+/*.App {
   text-align: center;
 }
 
@@ -36,3 +126,4 @@
     transform: rotate(360deg);
   }
 }
+*/
