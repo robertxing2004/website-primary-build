@@ -1,16 +1,16 @@
-import background from './background.jpeg';
+import background from './components/background.jpeg';
+import me from './components/me.jpg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header class="header" id="home">
+      <div class="header" id="home">
         <nav class="nav">
           <div class="nav-container">
-            <div class="logo">
-              <h3>Robert Xing</h3>
+            <div style={{color: "white", margin: "2%"}}>
+              <h4>Robert Xing</h4>
             </div>
-
             <div class="menu">
               <ul class="nav-list">
                 <li class="nav-item">
@@ -23,12 +23,36 @@ function App() {
             </div>
           </div>
         </nav>
-        <img class="header img" src={ background } alt=""/>
-        <div class="home">
+        <div class="title">
           <h3>Hi! My name is</h3>
           <h1>Robert Xing</h1>
         </div>
-      </header>
+        <img class="header img" src={ background } alt=""/>
+      </div>
+
+
+
+
+
+      {/*===== ABOUT ME =====*/}
+
+
+
+
+
+      <div class="about" id="about">
+        <div class="about-title">
+          <h2>About Me</h2>
+        </div>
+        <div class="about-content">
+          <div class="about-text">
+            
+          </div>
+          <div class="about-img">
+            <img class="me" src={ me } alt=""/>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

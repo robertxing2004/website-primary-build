@@ -10,7 +10,7 @@ body {
   transition: color 0.5s, background-color 0.5s;
   font-family: 'Poppins', sans-serif;
   line-height: .5;
-  font-size: 20px;
+  font-size: 15px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -26,6 +26,10 @@ body {
   z-index: -1;
 }
 
+.header {
+  height: 100vh;
+}
+
 .home {
   color: #ffffff;
   width: 100%;
@@ -38,8 +42,18 @@ h1 {
   font-weight: 500;
 }
 
+h2 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
 h3 {
   font-size: 20px;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 15px;
   font-weight: 500;
 }
 
@@ -47,11 +61,8 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.logo {
-  margin: 2%;
-  color: #ffffff;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .menu {
@@ -84,8 +95,25 @@ h3 {
   transition-duration: 0.5s;
 }
 
-.home {
-  margin-top: 5%;
+.title {
+  margin-top: 10%;
+  color: #ffffff;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.about {
+  text-align: center;
+}
+
+.about-content {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about img {
+  width: 500px;
+  height: auto;
 }
 
 /*.App {
