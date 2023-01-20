@@ -9,7 +9,6 @@ body {
   background: #ffffff;
   transition: color 0.5s, background-color 0.5s;
   font-family: 'Poppins', sans-serif;
-  line-height: .5;
   font-size: 15px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -57,6 +56,10 @@ h4 {
   font-weight: 500;
 }
 
+p extends h4 {
+  font-weight: 400;
+}
+
 .nav-container {
   display: flex;
   align-items: center;
@@ -98,6 +101,7 @@ h4 {
 .title {
   margin-top: 10%;
   color: #ffffff;
+  line-height: .5;
   text-align: center;
   padding: 30px 0;
 }
@@ -107,12 +111,20 @@ h4 {
 }
 
 .about-content {
+  display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.about-text {
+  line-height: 1.5;
+  text-align: left;
 }
 
 .about img {
-  width: 500px;
+  width: 350px;
   height: auto;
 }
 
