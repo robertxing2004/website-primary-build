@@ -47,8 +47,8 @@ function App() {
         <div class="about-content">
           <div class="about-text">
             <p>
-              I'm currently a first year engineering student at Western University<br/>
-              studying software engineering and hoping to pursue the Ivey HBA<br/>
+              I'm currently a first year engineering student at <a href="https://www.uwo.ca" target="_blank">Western University</a><br/>
+              studying software engineering and hoping to pursue the <a href="https://www.ivey.uwo.ca/hba/" target="_blank">Ivey HBA</a><br/>
               dual degree program
             </p>
             <p>

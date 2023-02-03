@@ -1,3 +1,10 @@
+/* color palette
+--green-blue: #0064b4;
+--dark-magenta: #880093;
+--radical-red: #ff005c;
+--indigo: #44006d;
+*/
+
 html {
   scroll-behavior: smooth;
   box-sizing: border-box;
@@ -101,6 +108,7 @@ p extends h4 {
 .title {
   margin-top: 10%;
   color: #ffffff;
+  filter: drop-shadow(0 0 0.5rem #ffffff50);
   line-height: .5;
   text-align: center;
   padding: 30px 0;
@@ -110,12 +118,27 @@ p extends h4 {
   text-align: center;
 }
 
+.about a {
+  text-decoration: none;
+  color: #880093;
+}
+
+.about a:hover {
+  background-color: #88009330;
+  transition-duration: 0.5s;
+}
+
 .about-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-left: 15%;
   padding-right: 15%;
+}
+
+.about-title {
+  color: #0064b4;
+  filter: drop-shadow(0 0 0.5rem #0064b450);
 }
 
 .about-text {
