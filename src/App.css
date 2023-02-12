@@ -213,6 +213,7 @@ h4 {
   width: 350px;
   height: auto;
   margin: 0 50px;
+  filter: drop-shadow(0 0.5rem 0.5rem #00000080);
 }
 
 
@@ -228,13 +229,14 @@ h4 {
 .footer {
   background: #000000;
   color: #ffffff;
-  height: 75px;
+  height: 80px;
   text-align: center;
   margin-top: auto;
 }
 
 .footer p {
-  padding-top: 25px;
+  padding-top: 20px;
+  line-height: 1.5;
   font-size: 12px;
   font-weight: 500;
 }

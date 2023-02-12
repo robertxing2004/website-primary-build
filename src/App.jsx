@@ -9,6 +9,7 @@ var ReactRotatingText = require('react-rotating-text');
 
 
 function App() {
+
   return (
     <div className="App" id="container">
       <div className="header" id="home">
@@ -20,19 +21,19 @@ function App() {
             <div className="menu">
               <ul className="nav-list">
                 <li className="nav-item">
-                  <a href="#home" className="nav-link">Home</a>
-                  <a href="#about" className="nav-link">About Me</a>
-                  <a href="#projects" className="nav-link">Projects</a>
-                  <a href="#contact" className="nav-link">Contact</a>
+                  <a href="#home" className="nav-link">home</a>
+                  <a href="#about" className="nav-link">about me</a>
+                  <a href="#projects" className="nav-link">projects</a>
+                  <a href="#contact" className="nav-link">contact</a>
                 </li>
               </ul>
             </div>
           </div>
         </nav>
         <div className="title">
-          <h3>Hi! My name is</h3>
+          <h3>hi! my name is</h3>
           <h1>Robert Xing</h1>
-          <p>and I'm a <ReactRotatingText emptyPause={500} items={['student', 'software developer', 'photographer', 'traveler', ]} /></p>
+          <p>and i'm a <ReactRotatingText emptyPause={500} items={['student', 'software developer', 'photographer', 'traveler', ]} /></p>
         </div>
         <div className="icons">
           <a href="https://github.com/robertxing2004" target="_blank" rel="noreferrer">
@@ -61,7 +62,7 @@ function App() {
 
       <div className="about" id="about">
         <div className="about-title">
-          <h2>About Me</h2>
+          <h2>about me</h2>
         </div>
         <div className="about-content">
           <div className="about-text">
@@ -95,10 +96,15 @@ function App() {
 
       <div className="projects" id="projects">
         <div className="project-title">
-          <h2>Projects</h2>
+          <h2>projects</h2>
         </div>
         <div className="project-content">
+          <div className="project-carousel">
+            
+          </div>
+          <div className="project-cards">
 
+          </div>
         </div>
       </div>
 
@@ -111,14 +117,11 @@ function App() {
 
 
 
-
-      
-      
-      
       
       <div className="footer">
         <div className="footer-content">
-          <p>Designed and built by Robert Xing</p>
+          <p>designed and built by Robert Xing<br/>
+          all rights reserved. &copy; {(new Date().getFullYear())}</p>
         </div>
       </div>
     </div>
