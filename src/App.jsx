@@ -1,5 +1,6 @@
-import background from './components/background.jpeg';
+import background from './components/aceb.jpeg';
 import me from './components/me.jpg';
+import resume from './components/resume2023.pdf';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faSquareEnvelope } from '@fortawesome/free-solid-svg-icons'
@@ -69,13 +70,19 @@ function App() {
             <p>
               I'm currently a first year engineering student at <a href="https://www.uwo.ca" target="_blank" rel="noreferrer">Western University</a><br/>
               studying software engineering and hoping to pursue the <a href="https://www.ivey.uwo.ca/hba/" target="_blank" rel="noreferrer">Ivey HBA</a><br/>
-              dual degree program
+              dual degree program.
             </p>
             <p>
               Aside from school and work, I enjoy travelling all over the world and<br/>
               taking lots of photos! I also have a huge love for aviation, and I hope<br/>
               to get my Canadian private pilot's license once I have the time and<br/>
               money (lol) to do so!
+            </p>
+            <p>
+              I'm looking to pursue a career in software development, and I'm mainly<br/>
+              interested in fullstack development, iOS development, and UI/UX design.<br/>
+              At the moment I'm looking for summer co-op and internship opportunities.<br/>
+              You can view my current resume <a className="resume" href ={ resume } target="_blank" rel="noreferrer">here</a>.
             </p>
           </div>
           <div>
