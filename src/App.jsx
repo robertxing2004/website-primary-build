@@ -8,7 +8,6 @@ import './App.css';
 
 var ReactRotatingText = require('react-rotating-text');
 
-
 function App() {
 
   return (

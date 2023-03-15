@@ -71,20 +71,13 @@ h4 {
   left: 0;
   width: 100%;
   height: 100%;
-  filter: brightness(75%);
+  filter: brightness(55%);
   object-fit: cover;
   z-index: -1;
 }
 
 .header {
   height: 100vh;
-}
-
-.home {
-  color: #ffffff;
-  width: 100%;
-  text-align: center;
-  padding: 70px 0;
 }
 
 .react-rotating-text-cursor {
@@ -110,9 +103,9 @@ h4 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  overflow: visible;
   padding-left: 10%;
   padding-right: 10%;
+  z-index: +1;
 }
 
 .menu {
@@ -148,7 +141,7 @@ h4 {
 }
 
 .title {
-  margin-top: 15%;
+  padding-top: 15%;
   color: #ffffff;
   filter: drop-shadow(0 0 1rem #00000080);
   line-height: .5;
