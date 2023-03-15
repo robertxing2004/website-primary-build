@@ -10,7 +10,6 @@
   --red: #FF005C;
 */
 
-
 html {
   scroll-behavior: smooth;
   box-sizing: border-box;
@@ -105,9 +104,13 @@ h4 {
 }
 
 .nav-container {
+  position: fixed;
+  top: 0;
+  width: 80%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  overflow: visible;
   padding-left: 10%;
   padding-right: 10%;
 }
@@ -118,7 +121,6 @@ h4 {
 
 .nav ul {
   list-style-type: none;
-  position: sticky;
   top: 0;
   margin: 0;
   padding: 0;
@@ -146,7 +148,7 @@ h4 {
 }
 
 .title {
-  margin-top: 10%;
+  margin-top: 15%;
   color: #ffffff;
   filter: drop-shadow(0 0 1rem #00000080);
   line-height: .5;

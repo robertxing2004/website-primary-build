@@ -82,11 +82,11 @@ function App() {
               I'm looking to pursue a career in software development, and I'm mainly<br/>
               interested in fullstack development, iOS development, and UI/UX design.<br/>
               At the moment I'm looking for summer co-op and internship opportunities.<br/>
-              You can view my current resume <a className="resume" href ={ resume } target="_blank" rel="noreferrer">here</a>.
+              You can view my current resume <a href ={ resume } target="_blank" rel="noreferrer">here</a>.
             </p>
           </div>
           <div>
-            <img className="me" src={ me } alt=""/>
+            <img src={ me } alt=""/>
           </div>
         </div>
       </div>
