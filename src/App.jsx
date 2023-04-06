@@ -6,9 +6,9 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faSquareEnvelope } from '@fortawesome/free-solid-svg-icons'
 import './App.css';
 
-var ReactRotatingText = require('react-rotating-text');
-
 function App() {
+
+  var ReactRotatingText = require('react-rotating-text');
 
   return (
     <div className="App" id="container">
@@ -24,7 +24,6 @@ function App() {
                   <a href="#home" className="nav-link">home</a>
                   <a href="#about" className="nav-link">about me</a>
                   <a href="#projects" className="nav-link">projects</a>
-                  <a href="#contact" className="nav-link">contact</a>
                 </li>
               </ul>
             </div>
@@ -46,7 +45,7 @@ function App() {
             <FontAwesomeIcon icon={ faSquareEnvelope } />
           </a>
         </div>
-        <img class="header img" src={ background } alt=""/>
+        <img className="header img" src={ background } alt=""/>
       </div>
       
 

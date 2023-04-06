@@ -22,7 +22,7 @@ html {
 
 body {
   min-height: 100vh;
-  color: #000000;
+  color: #001a25;
   background: #ffffff;
   transition: color 0.5s, background-color 0.5s;
   font-family: 'Poppins', sans-serif;
@@ -97,15 +97,15 @@ h4 {
 }
 
 .nav-container {
-  position: fixed;
+  position: relative;
   top: 0;
   width: 80%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding: 0 10%;
   z-index: +1;
+  transition-duration: 0.5s;
 }
 
 .menu {
@@ -129,7 +129,7 @@ h4 {
   font-weight: 500;
   color: #ffffff;
   text-decoration: none;
-  margin: 5px;
+  margin-left: 10px;
   padding: 8px 16px;
   border-radius: 10px;
   transition-duration: 0.5s;
@@ -166,7 +166,7 @@ h4 {
 .icons a {
   color: #ffffff;
   font-size: 30px;
-  margin-right: 30px;
+  margin: 0 15px;
   transition-duration: 0.5s;
 }
 
@@ -187,6 +187,9 @@ h4 {
 
 .about {
   text-align: center;
+}
+.about-title {
+  padding-top: 5%;
 }
 
 .about a {
