@@ -9,7 +9,6 @@
   --magenta: #AA0094;
   --red: #FF005C;
 */
-
 html {
   scroll-behavior: smooth;
   box-sizing: border-box;
@@ -22,16 +21,17 @@ html {
 
 body {
   min-height: 100vh;
-  color: #001a25;
-  background: #ffffff;
+  color: var(--white);
+  background: var(--dark-navy);
   transition: color 0.5s, background-color 0.5s;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Figtree', sans-serif;
   font-size: 15px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+/*
 h1 {
   font-size: 80px;
   font-weight: 500;
@@ -64,7 +64,7 @@ h4 {
 
 
 
-
+/*
 .header img {
   position: absolute;
   top: 0;
@@ -78,22 +78,6 @@ h4 {
 
 .header {
   height: 100vh;
-}
-
-.react-rotating-text-cursor {
-  animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s infinite;
-}
- 
-@keyframes blinking-cursor {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
 }
 
 .nav-container {
@@ -150,9 +134,11 @@ h4 {
   for left aligned title block
   text-align: left;
   margin-left: 10%;
-  */
+  *//*
 }
+*/
 
+/*
 .title p {
   font-size: 18px;
   font-weight: 500;
@@ -174,7 +160,7 @@ h4 {
   color: #ffffffb0;
   transition-duration: 0.5s;
 }
-
+*/
 
 
 
@@ -184,7 +170,7 @@ h4 {
 
 
 
-
+/*
 .about {
   text-align: center;
 }
@@ -222,28 +208,4 @@ h4 {
   margin: 0 50px;
   filter: drop-shadow(0 0.5rem 0.5rem #00000080);
 }
-
-
-
-
-
-/*===== FOOTER =====*/
-
-
-
-
-
-.footer {
-  background: #000000;
-  color: #ffffff;
-  height: 80px;
-  text-align: center;
-  margin-top: auto;
-}
-
-.footer p {
-  padding-top: 20px;
-  line-height: 1.5;
-  font-size: 12px;
-  font-weight: 500;
-}
+*/

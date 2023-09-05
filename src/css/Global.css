@@ -1,0 +1,9 @@
+:root {
+  --dark-navy: #00040D;
+  --white: #FFFFFF;
+  --accent-blue: #00E0FF;
+}
+
+body {
+  margin: 0 15%
+}
