@@ -3,14 +3,15 @@ import React from "react";
 import "../css/ProjectCard.css";
 import FadeIn from 'react-fade-in';
 
-class ProjectCard extends React.Component {
-  render () {
-    return(
-      <FadeIn>
-
-      </FadeIn>
-    )
-  }
+function ProjectCard({title, image}) {
+  return(
+    <FadeIn>
+      <div className="container">
+        <img src={image} alt=""/>
+        <h2>{title}</h2>
+      </div>
+    </FadeIn>
+  )
 }
 
 export default ProjectCard;

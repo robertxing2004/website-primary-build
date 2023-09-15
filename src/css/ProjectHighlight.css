@@ -1,0 +1,21 @@
+.container {
+  border: 1px solid orange;
+  height: 40vh;
+}
+
+.card-text {
+  width: 35%;
+  float: left;
+  margin-right: 5%;
+  border: 1px solid orange;
+}
+
+.card-text h2 {
+  font-weight: 400;
+}
+
+.card-thumbnail img {
+  height: 40vh;
+  width: auto;
+  float: right;
+}

@@ -1,13 +1,20 @@
 :root {
-  --dark-navy: #00040D;
+  --dark-navy: #000B1B;
   --white: #FFFFFF;
   --accent-blue: #00E0FF;
 }
 
 body {
-  margin: 0 15%
+  margin: 0 20%
 }
 
 h2 {
+  font-weight: 500;
   font-size: 32px;
+  margin: 0;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 28px;
 }
