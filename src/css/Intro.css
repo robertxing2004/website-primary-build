@@ -19,11 +19,6 @@
   }
 }
 
-.intro-text {
-  float: left;
-  width: 30vw;
-}
-
 .intro-title h1 {
   margin: 0;
   font-size: 60px;
@@ -38,10 +33,4 @@
 .intro-body {
   margin: 0;
   font-size: 16px;
-}
-
-.intro-image img {
-  width: 30vw;
-  height: auto;
-  float: right;
 }
