@@ -16,7 +16,7 @@ class About extends React.Component {
             <div className="about-text">
               <p>
                 I'm currently in second year at Western University studying<br/>
-                software engineering and hoping to pursue theIvey HBA<br/>
+                software engineering and hoping to pursue the Ivey HBA<br/>
                 dual degree program.
               </p>
               <p>
