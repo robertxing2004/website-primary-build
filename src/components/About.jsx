@@ -10,13 +10,13 @@ class About extends React.Component {
       <FadeIn>
         <div className="about" id="about">
           <div className="about-title">
-            <h2>about me</h2>
+            <h2>| about me</h2>
           </div>
           <div className="about-content">
             <div className="about-text">
               <p>
-                I'm currently in second year at <a href="https://www.uwo.ca" target="_blank" rel="noreferrer">Western University</a> studying<br/>
-                software engineering and hoping to pursue the <a href="https://www.ivey.uwo.ca/hba/" target="_blank" rel="noreferrer">Ivey HBA</a><br/>
+                I'm currently in second year at Western University studying<br/>
+                software engineering and hoping to pursue theIvey HBA<br/>
                 dual degree program.
               </p>
               <p>
@@ -28,7 +28,7 @@ class About extends React.Component {
               <p>
                 I'm looking to pursue a career in software development, and I'm mainly<br/>
                 interested in fullstack development, iOS development, and UI/UX design.<br/>
-                At the moment I'm looking for summer (May-August) co-op and internship opportunities.<br/>
+                At the moment I'm looking for summer (May-August) co-op and internship <br/>opportunities.
                 You can view my current resume <a href ={ resume } target="_blank" rel="noreferrer">here</a>.
               </p>
             </div>

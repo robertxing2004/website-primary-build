@@ -3,10 +3,11 @@ import React from "react";
 import './App.css';
 import './css/Global.css';
 
+import Navlinks from './components/Navlinks.jsx';
 import Intro from './components/Intro.jsx';
 import About from './components/About.jsx';
 import Projects from './components/Projects.jsx';
-import Navlinks from './components/Navlinks.jsx';
+import Contact from './components/Contact.jsx';
 import Footer from './components/Footer.jsx';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Intro></Intro>
         <About></About>
         <Projects></Projects>
+        <Contact></Contact>
         <Footer></Footer>
       </div>
       <Navlinks />

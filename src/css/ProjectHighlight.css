@@ -1,13 +1,16 @@
 .container {
-  border: 1px solid orange;
-  height: 40vh;
+  margin-top: 10vh;
+  height: 45vh;
 }
 
 .card-text {
-  width: 35%;
+  width: 37vh;
   float: left;
   margin-right: 5%;
-  border: 1px solid orange;
+}
+
+.card-text p {
+  margin: 0;
 }
 
 .card-text h2 {
@@ -15,7 +18,7 @@
 }
 
 .card-thumbnail img {
-  height: 40vh;
+  height: 48vh;
   width: auto;
   float: right;
 }

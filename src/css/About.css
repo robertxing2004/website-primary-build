@@ -1,4 +1,11 @@
 .about {
   margin-top: 40vh;
-  border: 1px solid orange;
+}
+
+.about-content {
+  margin-top: 10vh;
+}
+
+.about a {
+  color: var(--accent-blue);
 }

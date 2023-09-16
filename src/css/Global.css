@@ -2,10 +2,12 @@
   --dark-navy: #000B1B;
   --white: #FFFFFF;
   --accent-blue: #00E0FF;
+  --accent-green: #38FF94;
 }
 
 body {
-  margin: 0 20%
+  margin: 0 20% 0 15%;
+  line-height: 1.2;
 }
 
 h2 {
@@ -17,4 +19,15 @@ h2 {
 h3 {
   font-weight: 400;
   font-size: 28px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+a:hover {
+  filter: drop-shadow(0 0 0.75rem var(--accent-blue));
+  color: var(--accent-blue);
+  transition-duration: 0.5s;
 }

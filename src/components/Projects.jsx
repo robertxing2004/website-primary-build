@@ -11,11 +11,11 @@ class Projects extends React.Component {
       <FadeIn>
         <div className="projects" id="projects">
           <div className="project-title">
-            <h2>projects & contributions</h2>
+            <h2>| projects & contributions</h2>
           </div>
           <div className="project-content">
             <div className="project-highlights">
-              <ProjectHighlight title={"FLYBYWIRE A32NX"} desc={"the most popular open-source aircraft for microsoft flight simulator"} image={A32NX}>
+              <ProjectHighlight title={"FLYBYWIRE A32NX"} desc={"the most popular open-source aircraft for microsoft flight simulator"} link={"https://github.com/flybywiresim/aircraft"} image={A32NX}>
               </ProjectHighlight>
             </div>
             <div className="project-cards">

@@ -1,7 +1,6 @@
 .intro {
-  padding-top: 35vh;
+  padding-top: 30vh;
   font-size: 32px;
-  border: 1px solid orange;
 }
 
 .react-rotating-text-cursor {
@@ -25,7 +24,13 @@
   font-size: 60px;
 }
 
-.intro-desc {
+.intro-title h1 span {
+  background: linear-gradient(45deg, var(--accent-green), var(--accent-blue));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.intro-body {
   margin: 0;
   font-size: 16px;
 }

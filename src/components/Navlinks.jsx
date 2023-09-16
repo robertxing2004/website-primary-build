@@ -16,6 +16,7 @@ class Navlinks extends React.Component {
               <a href="#home" className="nav-link">| home</a>
               <a href="#about" className="nav-link">| about</a>
               <a href="#projects" className="nav-link">| projects</a>
+              <a href="#contact" className="nav-link">| contact</a>
             </li>
           </ul>
           <div className="intro-icons">

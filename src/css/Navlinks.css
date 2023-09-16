@@ -25,13 +25,3 @@
 li {
   list-style-type: none;
 }
-
-a {
-  text-decoration: none;
-  color: var(--white);
-}
-
-a:hover {
-  color: var(--accent-blue);
-  transition-duration: 0.5s;
-}
