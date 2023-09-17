@@ -1,7 +1,7 @@
 import React from "react";
 
 import "../css/About.css";
-import resume from '../assets/resume2023.pdf';
+import resume from '../assets/resume.pdf';
 import FadeIn from 'react-fade-in';
 
 class About extends React.Component {
