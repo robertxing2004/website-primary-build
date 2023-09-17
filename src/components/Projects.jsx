@@ -15,7 +15,7 @@ class Projects extends React.Component {
           </div>
           <div className="project-content">
             <div className="project-highlights">
-              <ProjectHighlight title={"FLYBYWIRE A32NX"} desc={"the most popular open-source aircraft for microsoft flight simulator"} link={"https://github.com/flybywiresim/aircraft"} image={A32NX}>
+              <ProjectHighlight title={"FLYBYWIRE A32NX"} desc={"the most popular open-source airliner for microsoft flight simulator"} link={"https://github.com/flybywiresim/aircraft"} image={A32NX}>
               </ProjectHighlight>
             </div>
             <div className="project-cards">

@@ -24,6 +24,10 @@
   font-size: 60px;
 }
 
+.intro-title p {
+  margin: 10px 0;
+}
+
 .intro-title h1 span {
   background: linear-gradient(45deg, var(--accent-green), var(--accent-blue));
   background-clip: text;

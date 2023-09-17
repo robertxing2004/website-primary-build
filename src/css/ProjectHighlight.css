@@ -13,8 +13,9 @@
   margin: 0;
 }
 
-.card-text h2 {
+.card-text h3 {
   font-weight: 400;
+  margin: 20px 0;
 }
 
 .card-thumbnail img {
