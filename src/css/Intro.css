@@ -45,7 +45,6 @@
   padding: 7px 20px;
   font-size: 18px;
   font-weight: 500;
-  transition-duration: 0.5s;
 }
 
 .intro a:hover {
@@ -54,7 +53,7 @@
   border-style: solid;
   background: linear-gradient(45deg, var(--accent-green), var(--accent-blue));
   background-clip: border-box;
-  filter: drop-shadow(0 0 0.75rem var(--accent-average-cool));
+  filter: drop-shadow(0 0 0.5rem var(--accent-average-cool));
   color: var(--dark-navy);
   transition-duration: 0.5s;
 }
