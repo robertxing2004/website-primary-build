@@ -3,6 +3,7 @@
   --white: #FFFFFF;
   --accent-blue: #00E0FF;
   --accent-green: #38FF94;
+  --accent-average-cool: #009FAF;
 }
 
 body {
@@ -24,6 +25,7 @@ h3 {
 a {
   text-decoration: none;
   color: var(--white);
+  transition-duration: 0.5s;
 }
 
 a:hover {

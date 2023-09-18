@@ -18,6 +18,7 @@ class Intro extends React.Component {
               I'm a software engineering student and photographer based<br/>in Waterloo, Ontario.
               My current interests are in fullstack development,<br/> machine learning, project management, and UI/UX design.
             </div>
+            <a href="#contact" className="nav-link">say hi!</a>
           </div>
         </div>
       </FadeIn>
