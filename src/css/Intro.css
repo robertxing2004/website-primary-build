@@ -49,8 +49,11 @@
 }
 
 .intro a:hover {
-  border: none;
+  border-image: linear-gradient(45deg, var(--accent-green), var(--accent-blue)) 0;
+  border-width: 1px;
+  border-style: solid;
   background: linear-gradient(45deg, var(--accent-green), var(--accent-blue));
+  background-clip: border-box;
   filter: drop-shadow(0 0 0.75rem var(--accent-average-cool));
   color: var(--dark-navy);
   transition-duration: 0.5s;
