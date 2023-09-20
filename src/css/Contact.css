@@ -1,3 +1,63 @@
 .contact {
   margin-top: 25vh;
 }
+
+.contact form {
+  margin-top: 10vh;
+}
+
+.contact form label {
+  font-size: 16px;
+}
+
+.contact form input, textarea {
+  font-family: 'Figtree', sans-serif;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: white;
+}
+
+.email {
+  width: 20vw;
+  padding: 6px 10px;
+  border: none;
+  border-left: 2px solid white;
+  background-color: var(--textbox-bg);
+}
+
+.message {
+  width: 60vw;
+  padding: 6px 10px;
+  border: none;
+  border-left: 2px solid white;
+  background-color: var(--textbox-bg);
+}
+
+.contact form input, textarea:focus {
+  outline: none;
+}
+
+.contact form input, textarea:active {
+  outline: none;
+}
+
+.submit {
+  background-color: var(--dark-navy);
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 7px 20px;
+  font-weight: 500;
+}
+
+.submit:hover {
+  border-image: linear-gradient(45deg, var(--accent-green), var(--accent-blue)) 0;
+  border-width: 1px;
+  border-style: solid;
+  background: linear-gradient(45deg, var(--accent-green), var(--accent-blue));
+  background-clip: border-box;
+  filter: drop-shadow(0 0 0.5rem var(--accent-average-cool));
+  color: var(--dark-navy);
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
