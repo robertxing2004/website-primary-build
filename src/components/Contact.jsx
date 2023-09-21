@@ -20,6 +20,7 @@ class Contact extends React.Component {
                 MESSAGE<br/>
                 <textarea type="text" className="message" name="message" rows="5" placeholder="what's on your mind?"/>
               </label>
+              <br/>
               <label>
                 <input type="submit" className="submit" value="SUBMIT"/>
               </label>
