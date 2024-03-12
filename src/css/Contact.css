@@ -61,3 +61,8 @@
   transition-duration: 0.5s;
   cursor: pointer;
 }
+
+.label {
+  transition-duration: 0.5s;
+  padding-left: 20px;
+}
