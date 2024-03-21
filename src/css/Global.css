@@ -7,14 +7,9 @@
   --accent-average-cool: #009FAF;
 }
 
-body {
-  margin: 0 20% 0 15%;
-  line-height: 1.2;
-}
-
 h2 {
   font-weight: 500;
-  font-size: 32px;
+  font-size: 40px;
   margin: 0;
 }
 
