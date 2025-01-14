@@ -4,12 +4,10 @@ import "../css/Navlinks.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faSquareEnvelope } from '@fortawesome/free-solid-svg-icons'
-import FadeIn from 'react-fade-in';
 
 class Navlinks extends React.Component {
   render() {
     return (
-      <FadeIn>
         <div className="menu">
           <ul className="nav-list">
             <li className="nav-item">
@@ -31,7 +29,6 @@ class Navlinks extends React.Component {
             </a>
           </div>
         </div>
-      </FadeIn>
     );
   }
 }

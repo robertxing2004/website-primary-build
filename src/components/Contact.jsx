@@ -1,7 +1,6 @@
 import React from 'react';
 
 import "../css/Contact.css";
-import FadeIn from 'react-fade-in';
 import emailjs from '@emailjs/browser';
 
 class Contact extends React.Component {
@@ -59,31 +58,29 @@ class Contact extends React.Component {
 
   render() {
     return(
-      <FadeIn>
-        <div className="contact" id="contact">
-          <div className="contact-title">
-            <h2>| contact</h2>
-            <form onSubmit={this.sendEmail}>
-              <label>
-                EMAIL<br/>
-                <input type="text" className="email" name="from_name" placeholder="name@example.com"/>
-              </label>
-              <br/>
-              <label>
-                MESSAGE<br/>
-                <textarea type="text" className="message" name="message" rows="5" placeholder="what's on your mind?"/>
-              </label>
-              <br/>
-              <label>
-                <input type="submit" className="submit" value="SUBMIT"/>
-                {this.state.showSuccessLabel && <span className="label">Thanks for reaching out! I'll get back to you ASAP</span>}
-                {this.state.showContentLabel && <span className="label">Something feels missing...</span>}
-                {this.state.showFailLabel && <span className="label">Well that's awkward, I don't work at the moment...</span>}
-              </label>
-            </form>
-          </div>
+      <div className="contact" id="contact">
+        <div className="contact-title">
+          <h2>| contact</h2>
+          <form onSubmit={this.sendEmail}>
+            <label>
+              EMAIL<br/>
+              <input type="text" className="email" name="from_name" placeholder="name@example.com"/>
+            </label>
+            <br/>
+            <label>
+              MESSAGE<br/>
+              <textarea type="text" className="message" name="message" rows="5" placeholder="what's on your mind?"/>
+            </label>
+            <br/>
+            <label>
+              <input type="submit" className="submit" value="SUBMIT"/>
+              {this.state.showSuccessLabel && <span className="label">Thanks for reaching out! I'll get back to you ASAP</span>}
+              {this.state.showContentLabel && <span className="label">Something feels missing...</span>}
+              {this.state.showFailLabel && <span className="label">Well that's awkward, I don't work at the moment...</span>}
+            </label>
+          </form>
         </div>
-      </FadeIn>
+      </div>
     );
   }
 }
