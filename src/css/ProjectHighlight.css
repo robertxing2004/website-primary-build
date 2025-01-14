@@ -4,9 +4,8 @@
 }
 
 .card-text {
-  width: 37vh;
+  width: 20vw;
   float: left;
-  margin-right: 5%;
 }
 
 .card-text p {
@@ -19,7 +18,7 @@
 }
 
 .card-thumbnail img {
-  height: 48vh;
-  width: auto;
+  height: auto;
+  width: 42vw;
   float: right;
 }
