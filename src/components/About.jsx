@@ -15,8 +15,8 @@ class About extends React.Component {
           <div className="about-content">
             <div className="about-text">
               <p>
-                I'm currently in second year at Western University studying<br/>
-                software engineering and hoping to pursue the Ivey HBA<br/>
+                I'm currently in third year at Western University studying<br/>
+                software engineering and business, pursuing the Ivey HBA<br/>
                 dual degree program.
               </p>
               <p>
@@ -25,8 +25,8 @@ class About extends React.Component {
                 to get my Canadian private pilot's license in the (hopefully) near future.
               </p>
               <p>
-                I'm looking to pursue a career in software development, and I'm mainly<br/>
-                interested in fullstack development, iOS development, and UI/UX design.<br/>
+                I'm looking to pursue a career in tech, and I'm mainly<br/>
+                interested in fullstack development, project management, autonomous vehicles.<br/>
                 At the moment I'm looking for summer (May-August) co-op and internship <br/>opportunities.
                 You can view my current resume <a href ={ resume } target="_blank" rel="noreferrer">here</a>.
               </p>
