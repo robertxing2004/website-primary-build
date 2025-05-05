@@ -1,7 +1,7 @@
 import React from "react";
 
 import "../css/Projects.css";
-import A32NX from '../assets/a32nx.png';
+import A32NX from '../public/a32nx.png';
 import ProjectHighlight from "./ProjectHighlight";
 
 class Projects extends React.Component {

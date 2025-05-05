@@ -1,7 +1,7 @@
 import React from "react";
 
 import "../css/About.css";
-import resume from '../assets/resume.pdf';
+import resume from '../public/resume.pdf';
 
 class About extends React.Component {
   render() {
