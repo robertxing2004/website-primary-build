@@ -23,8 +23,8 @@ class About extends React.Component {
               to get my Canadian private pilot's license in the (hopefully) near future.
             </p>
             <p>
-              I'm looking to pursue a career in tech, and I'm mainly<br/>
-              interested in fullstack development, project management, autonomous vehicles.<br/>
+              I'm looking to pursue a career in tech, and I'm mainly interested in<br/>
+              fullstack development, embedded systems, and project management.<br/>
               At the moment I'm looking for summer (May-August) co-op and internship <br/>opportunities.
               You can view my current resume <a href ={ resume } target="_blank" rel="noreferrer">here</a>.
             </p>
