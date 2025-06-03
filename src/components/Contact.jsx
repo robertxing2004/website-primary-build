@@ -73,7 +73,7 @@ class Contact extends React.Component {
             </label>
             <br/>
             <label>
-              <input type="submit" className="submit" value="SUBMIT"/>
+              <input type="submit" className="submit" value="SEND"/>
               {this.state.showSuccessLabel && <span className="label">Thanks for reaching out! I'll get back to you ASAP</span>}
               {this.state.showContentLabel && <span className="label">Something feels missing...</span>}
               {this.state.showFailLabel && <span className="label">Well that's awkward, I don't work at the moment...</span>}
