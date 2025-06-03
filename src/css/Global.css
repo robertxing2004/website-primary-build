@@ -4,7 +4,7 @@
   --white: #FFFFFF;
   --accent-blue: #00E0FF;
   --accent-green: #38FF94;
-  --accent-average-cool: #009FAF;
+  --accent-average-cool: #1CF0CA;
 }
 
 h2 {
@@ -25,7 +25,7 @@ a {
 }
 
 a:hover {
-  filter: drop-shadow(0 0 0.75rem var(--accent-blue));
-  color: var(--accent-blue);
+  filter: drop-shadow(0 0 0.75rem var(--accent-average-cool));
+  color: var(--accent-average-cool);
   transition-duration: 0.5s;
 }
