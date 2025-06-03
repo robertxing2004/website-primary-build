@@ -7,8 +7,7 @@ class Footer extends React.Component {
     return (
       <div id="footer">
         <div className="footer-content">
-          <p>designed and built by Robert Xing<br/>
-          all rights reserved. &copy; {(new Date().getFullYear())}</p>
+          <p>designed and built by Robert Xing</p>
         </div>
       </div>
     );
