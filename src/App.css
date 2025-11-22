@@ -10,10 +10,12 @@ html {
 
 body {
   margin: 0 20vw 0 15vw;
+  width: 100%;
+  max-width: 900px;
   line-height: 1.2;
   min-height: 100vh;
   color: var(--white);
-  background: var(--dark-navy);
+  background: var(--black);
   transition: color 0.5s, background-color 0.5s;
   font-family: 'Figtree', sans-serif;
   font-size: 16px;
